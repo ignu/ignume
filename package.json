@@ -1,0 +1,14 @@
+{
+  "name": "ignume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^1.0.11",
+    "gatsby-link": "^1.0.9"
+  }
+}
