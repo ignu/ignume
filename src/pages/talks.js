@@ -62,6 +62,11 @@ const talks = [
     talk: "JavaScript is Real Code: SOLID and TDD in the Browser"
   },
   {
+    year: "2009",
+    venue: "West Michigan .NET University",
+    talk: "Effective Unit Testing and Test Driven Development"
+  },
+  {
     year: "2012",
     venue: "TechBash",
     talk: "Modern jQuery"
