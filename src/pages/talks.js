@@ -87,6 +87,11 @@ const talks = [
     talk: "TDD in JavaScript with JSpec"
   },
   {
+    year: "2008",
+    venue: "Ann Arbor Day of .NET",
+    talk: "Browser Magic with jQuery"
+  },
+  {
     year: "2010",
     venue: "Great Lakes Area .NET User Group ",
     talk: "JavaScript is Real Code: SOLID and TDD in the Browser"
@@ -147,9 +152,14 @@ const talks = [
     talk: "Data Access with NHibernate"
   },
   {
-    year: "2007",
+    year: "2008",
     venue: "Lansing Day of .NET",
     talk: "Data Access with NHibernate"
+  },
+  {
+    year: "2009",
+    venue: "Lansing Day of .NET",
+    talk: "Enabling Test Driven Development with Dependency Injection and Mock Objects"
   },
   {
     year: "2010",
