@@ -3,7 +3,6 @@ import Link from 'gatsby-link'
 
 export default () => <div>
   <Link to="/talks">Talks</Link>
-  {post.node.frontmatter.title}
   Hello world!
 </div>
 
@@ -23,7 +22,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          fields {
+    fields {
             slug
           }
           frontmatter {

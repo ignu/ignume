@@ -5,7 +5,9 @@
   "repository": {},
   "license": "MIT",
   "scripts": {
-    "start": "./node_modules/.bin/gatsby develop"
+    "start": "./node_modules/.bin/gatsby develop",
+    "build": "./node_modules/.bin/gatsby build",
+    "deploy": "./node_modules/.bin/gatsby build && surge public ignume.surge.sh"
   },
   "dependencies": {
     "gatsby": "^1.0.11",
