@@ -148,7 +148,12 @@ const talks = [
   },
   {
     year: "2008",
-    venue: "Clevland Day of .NET",
+    venue: "Cleveland Day of .NET",
+    talk: "Data Access with NHibernate"
+  },
+  {
+    year: "2008",
+    venue: "West Michigan Day of .NET",
     talk: "Data Access with NHibernate"
   },
   {
