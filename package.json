@@ -10,7 +10,29 @@
     "deploy": "./node_modules/.bin/gatsby build && surge public ignume.surge.sh"
   },
   "dependencies": {
-    "gatsby": "^1.0.11",
-    "gatsby-link": "^1.0.9"
+    "gatsby": "^1.2.0",
+    "gatsby-link": "^1.0.9",
+    "gatsby-plugin-google-analytics": "^1.0.1",
+    "gatsby-plugin-manifest": "^1.0.1",
+    "gatsby-plugin-offline": "^1.0.1",
+    "gatsby-plugin-preact": "^1.0.1",
+    "gatsby-plugin-react-helmet": "^1.0.1",
+    "gatsby-plugin-sharp": "^1.0.1",
+    "gatsby-remark-copy-linked-files": "^1.0.1",
+    "gatsby-remark-images": "^1.2.0",
+    "gatsby-remark-prismjs": "^1.2.0",
+    "gatsby-remark-responsive-iframe": "^1.0.1",
+    "gatsby-remark-smartypants": "^1.0.1",
+    "gatsby-source-filesystem": "^1.0.1",
+    "gatsby-transformer-remark": "^1.1.0",
+    "gatsby-transformer-sharp": "^1.0.1",
+    "lodash": "^4.17.4",
+    "ramda": "^0.24.1",
+    "react-responsive-grid": "^0.3.4",
+    "react-typography": "^0.15.10",
+    "typeface-merriweather": "0.0.31",
+    "typeface-montserrat": "0.0.31",
+    "typography": "^0.15.12",
+    "typography-theme-wordpress-2016": "^0.15.10"
   }
 }

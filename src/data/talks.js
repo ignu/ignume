@@ -1,0 +1,184 @@
+const talks = [
+  {
+    year: "2017",
+    venue: "CodeMash",
+    talk: "React Everywhere Workshop"
+  },
+  {
+    year: "2016",
+    venue: "Midwest JS",
+    talk: "Bootstrapping React Applications"
+  },
+  {
+    year: "2016",
+    venue: "MoonConf",
+    talk: "Functional Programming with JavaScript and Ramda"
+  },
+  {
+    year: "2015",
+    venue: "CodeMash",
+    talk: "Marionette - a Framework for Backbone (lightning talk)"
+  },
+  {
+    year: "2013",
+    venue: "BohConf",
+    talk: "Marionette - a Framework for Backbone"
+  },
+  {
+    year: "2014",
+    venue: "Philly BarCamp",
+    talk: "Developer Tools"
+  },
+  {
+    year: "2011",
+    venue: "Indy Hall",
+    talk: "Ruby 101 Workshop"
+  },
+  {
+    year: "2012",
+    venue: "BarCamp Philly",
+    talk: "Modern jQuery"
+  },
+  {
+    year: "2011",
+    venue: "BarCamp Philly",
+    talk: "Git as a Tool"
+  },
+  {
+    year: "2010",
+    venue: "BarCamp Philly",
+    talk: "JavaScript is Real Code: SOLID and TDD in the Browser"
+  },
+  {
+    year: "2011",
+    venue: "Philly.rb",
+    talk: "JavaScript is Real Code: SOLID and TDD in the Browser"
+  },
+  {
+    year: "2011",
+    venue: "Northwest Ohio .NET User Group",
+    talk: "JavaScript is Real Code: SOLID and TDD in the Browser"
+  },
+  {
+    year: "2009",
+    venue: "West Michigan .NET University",
+    talk: "Effective Unit Testing and Test Driven Development"
+  },
+  {
+    year: "2012",
+    venue: "TechBash",
+    talk: "Modern jQuery"
+  },
+  {
+    year: "2012",
+    venue: "TechBash",
+    talk: "Git as a Tool"
+  },
+  {
+    year: "2010",
+    venue: "RubyHoedown",
+    talk: "Focus and Pomodoros (lightning talk)"
+  },
+  {
+    year: "2010",
+    venue: "Ann Arbor Day of .NET",
+    talk: "TDD in JavaScript with JSpec"
+  },
+  {
+    year: "2008",
+    venue: "Ann Arbor Day of .NET",
+    talk: "Browser Magic with jQuery"
+  },
+  {
+    year: "2010",
+    venue: "Great Lakes Area .NET User Group ",
+    talk: "JavaScript is Real Code: SOLID and TDD in the Browser"
+  },
+  {
+    year: "2009",
+    venue: "Philly Code Camp",
+    talk: "TDD like you mean it."
+  },
+  {
+    year: "2009",
+    venue: "Central Ohio Day of .NET",
+    talk: "TDD and Dependency Injection"
+  },
+  {
+    year: "2010",
+    venue: "A2 div",
+    talk: "TDD in JavaScript with JSpec"
+  },
+  {
+    year: "2012",
+    venue: "Philly Code Camp",
+    talk: "Backbone.js and CoffeeScript"
+  },
+  {
+    year: "2012",
+    venue: "Pittsburgh Tech Fest",
+    talk: "Backbone.js and CoffeeScript"
+  },
+  {
+    year: "2012",
+    venue: "Pittsburgh Tech Fest",
+    talk: "Modern jQuery"
+  },
+  {
+    year: "2012",
+    venue: "MADExpo",
+    talk: "Getting Git"
+  },
+  {
+    year: "2012",
+    venue: "MADExpo",
+    talk: "JavaScript is Real Code: SOLID and TDD in the Browser"
+  },
+  {
+    year: "2009",
+    venue: "Chicago Code Camp",
+    talk: "Get Rolling With NHibernate"
+  },
+  {
+    year: "2009",
+    venue: "Chicago Code Camp",
+    talk: "jQuery Magic"
+  },
+  {
+    year: "2008",
+    venue: "Cleveland Day of .NET",
+    talk: "Data Access with NHibernate"
+  },
+  {
+    year: "2008",
+    venue: "West Michigan Day of .NET",
+    talk: "Data Access with NHibernate"
+  },
+  {
+    year: "2008",
+    venue: "Lansing Day of .NET",
+    talk: "Data Access with NHibernate"
+  },
+  {
+    year: "2009",
+    venue: "Lansing Day of .NET",
+    talk: "Enabling Test Driven Development with Dependency Injection and Mock Objects"
+  },
+  {
+    year: "2010",
+    venue: "CodeStock",
+    talk: "JavaScript is Real Code: SOLID and TDD in the Browser"
+  },
+  {
+    year: "2009",
+    venue: "Ann Arbor .NET User Group",
+    talk: "TDD and Dependency Injection"
+  },
+  {
+    year: "2009",
+    venue: "Ann Arbor .NET User Group",
+    talk: "An Introduction to jQuery"
+  }
+]
+
+export default talks

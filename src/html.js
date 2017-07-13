@@ -1,15 +1,5 @@
 import React from 'react';
-
 //<link rel="shortcut icon" href={favicon} />
-
-let inlinedStyles = '';
-if (process.env.NODE_ENV === 'production') {
-  try {
-    inlinedStyles = require('!raw-loader!../public/styles.css');
-  } catch (e) {
-    console.log(e);
-  }
-}
 
 export default class HTML extends React.Component {
   render() {
@@ -24,7 +14,6 @@ export default class HTML extends React.Component {
       );
     }
     return (
-
       <html lang="en">
         <head>
           <meta charSet="utf-8" />
@@ -33,10 +22,10 @@ export default class HTML extends React.Component {
             content="width=device-width, initial-scale=1.0"
           />
           {this.props.headComponents}
+          <title>Cool 👍</title>
           {css}
         </head>
         <body>
-          <h1>Len Smith/h1>
           <div
             id="___gatsby"
             dangerouslySetInnerHTML={{ __html: this.props.body }}
