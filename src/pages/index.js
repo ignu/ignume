@@ -12,19 +12,18 @@ class BlogIndex extends React.Component {
     const pageLinks = []
     const siteTitle = get(this, "props.data.site.siteMetadata.title")
     const posts = get(this, "props.data.allMarkdownRemark.edges", [])
+
+
     posts.forEach(post => {
       if (post.node.path !== "/404/") {
         const title = get(post, "node.frontmatter.title") || post.node.path
+       const { subtitle, path } = post.node.frontmatter
         pageLinks.push(
-          <li
-            key={post.node.frontmatter.path}
-            style={{
-              marginBottom: rhythm(1 / 4),
-            }}
-          >
-            <Link style={{ boxShadow: "none" }} to={post.node.frontmatter.path}>
-              {post.node.frontmatter.title}
-            </Link>
+          <li key={path} style={{ marginBottom: rhythm(1 / 4), }}>
+            <Link style={{ boxShadow: "none" }} to={path}> {title} </Link>
+            <div>
+              {subtitle}
+            </div>
           </li>
         )
       }
@@ -60,6 +59,8 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             path
+            date
+            subtitle
           }
           frontmatter {
             title

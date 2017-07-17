@@ -3,6 +3,7 @@ title: React Everywhere
 date: "2017-01-12T22:40:32.169Z"
 layout: post
 path: "/react-everywhere"
+subtitle: "Notes of my React workshop at CodeMash 2017"
 tags:
   - speaking
   - react

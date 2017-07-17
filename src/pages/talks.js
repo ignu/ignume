@@ -4,14 +4,16 @@ import talks from '../data/talks'
 
 const byYear = R.groupBy(R.prop('year'))(talks)
 
-const Talk = (props) => <div>
-  <h4>{props.venue} - {props.talk}</h4>
-</div>
+const Talk = (props) => <li>
+  {props.venue} - {props.talk}
+</li>
 
 const Year = (props) => {
   return(<div>
-    <h3>{props.year}</h3>
-    {props.talks.map((t, i) => <Talk key={i} {...t}/>)}
+    <h4>{props.year}</h4>
+    <ul>
+      {props.talks.map((t, i) => <Talk key={i} {...t}/>)}
+    </ul>
   </div>)
 }
 
