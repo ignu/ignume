@@ -17,10 +17,14 @@ class BlogIndex extends React.Component {
     posts.forEach(post => {
       if (post.node.path !== "/404/") {
         const title = get(post, "node.frontmatter.title") || post.node.path
-       const { subtitle, path } = post.node.frontmatter
+        const { subtitle, path, date } = post.node.frontmatter
+
+        const formattedDate = new Date(Date.parse(date)).toLocaleDateString("en-US")
+
         pageLinks.push(
           <li key={path} style={{ marginBottom: rhythm(1 / 4), }}>
-            <Link style={{ boxShadow: "none" }} to={path}> {title} </Link>
+            <Link style={{ boxShadow: "none" }} to={path}> {title}</Link>
+            - {formattedDate}
             <div>
               {subtitle}
             </div>
