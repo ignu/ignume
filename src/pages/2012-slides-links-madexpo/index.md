@@ -1,8 +1,8 @@
 ---
 title: Slides and Links from my talks at MADEXPO
-date: "2012-07-02T12:10:30.229Z"
+date: 2012-07-02T12:10:30.229Z
 layout: post
-path: "/mad-expo-2012"
+path: /mad-expo-2012
 subtitle: ""
 tags:
   - speaking
@@ -16,7 +16,7 @@ If you came for JavaScript is Real Code, here’s my <a href="/javascript-is-rea
 
 If you came for Getting Git, here're my slides:
 
-<a href="http://f.cl.ly/items/2w3B0V1p3q1n1v1n342y/getting%20git.pdf">Getting Git (pdf)</a>
+<b><a href="http://f.cl.ly/items/2w3B0V1p3q1n1v1n342y/getting%20git.pdf">Getting Git (pdf)</a></b>
 
 And some links containing topics that I mentioned.
 

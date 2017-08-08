@@ -1,6 +1,6 @@
 ---
 title: React Everywhere
-date: "2017-01-12T22:40:32.169Z"
+date: 2017-01-12T22:40:32.169Z
 layout: post
 path: "/react-everywhere"
 subtitle: "Notes of my React workshop at CodeMash 2017"
@@ -18,7 +18,7 @@ Thanks for everyone who came my React workshop at [CodeMash](http://codemash.org
 * [The project we were building during the day](https://github.com/ignu/codemash-react-workshop)
 * [Slides](https://github.com/ignu/react-everywhere-workshop) (you'll need to `npm install && npm run`) to  view them
 
-## More feature ideas, if you still want to hack:
+### More feature ideas, if you still want to hack:
 
   * Store data offline using [redux-persist](https://github.com/rt2zz/redux-persist)
   * Move the initial `fetch` into the redux store using [redux-thunk](https://github.com/gaearon/redux-thunk)
@@ -27,15 +27,15 @@ Thanks for everyone who came my React workshop at [CodeMash](http://codemash.org
   * List a Speaker's sessions on their page
   * Filter by Tag
 
-# Further Learning/Playing
+### Further Learning/Playing
 
-### React
+#### React
 
 * [Getting Started with Redux - Course by @dan_abramov](https://egghead.io/courses/getting-started-with-redux)
 * [FormidableLabs/react-music: Make beats with React!](https://github.com/FormidableLabs/react-music)
 * [awesome-react: A collection of awesome things regarding React ecosystem.](https://github.com/enaqx/awesome-react)
 
-### React Native
+#### React Native
 
   * [ReactNativeKatas](https://github.com/jondot/ReactNativeKatas)  ahands-on, and fun learning experience for React Native
   * [React Native Playground: Play with React Native in browser](https://rnplay.org/)

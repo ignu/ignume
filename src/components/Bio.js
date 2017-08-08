@@ -30,10 +30,7 @@ class Bio extends React.Component {
         {" "}
         <strong>Len Smith</strong>
         {" "}
-        {" "}
-        <a href="https://twitter.com/ignu">
-          You should follow him on Twitter
-        </a>
+        who lives and works in Seattle. Follow him on <a href="https://twitter.com/ignu">Twitter</a>, <a href="http://github.com/ignu">Github</a> or listen to him on <a href="http://turing.cool">Turing-Incomplete</a>
       </p>
     )
   }

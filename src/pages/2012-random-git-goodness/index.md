@@ -1,8 +1,8 @@
 ---
 title: Random Git Goodness
-date: "2012-04-01T11:20:10.229Z"
+date: 2012-04-01T11:20:10.229Z
 layout: post
-path: "/random-git"
+path: /random-git
 subtitle: "A few commands that have recently improved my git workflow"
 tags:
   - git

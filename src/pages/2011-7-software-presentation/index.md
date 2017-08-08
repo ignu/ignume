@@ -13,7 +13,7 @@ tl;dr: (Spoiler) Software Engineering as a concept is a joke unless you're pract
 
 (This is the only software talk I've ever seen get a standing ovation)
 
-Uncle Bob Martin: The Renaissance of Craftmanship
+Uncle Bob Martin: [The Renaissance of Craftmanship](https://vimeo.com/12652744)
 
 tl;dr: Be less terrible.
 
@@ -25,7 +25,7 @@ J.B. Rainsberger: [Integration Tests Are a Scam](https://www.infoq.com/presentat
 
 tl;dr: Integration Tests yield shitty ROI because of Math.
 
-Mary Poppendieck: [Mary Poppendieck on using Lean for Competitive Advantage](https://www.infoq.com/interviews/poppendieck-lean-2007)
+Mary Poppendieck: [Lean for Competitive Advantage](https://www.infoq.com/interviews/poppendieck-lean-2007)
 
 tl;dr: Mary Poppendieck is the best ever
 
