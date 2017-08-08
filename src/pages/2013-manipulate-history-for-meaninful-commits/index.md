@@ -51,11 +51,7 @@ Now you'll be presented with a chance to edit your commit message. You'll see a 
     1d65cf1 - Added Ability for Users to Create Tips [completes #14] (2 weeks ago) Len Smith
 
 And bam. Your history is meaningful.
-And bam. Your history is meaningful.
 
-Before you push, take a second look at your commit. You're not going to be able to change it once its published. Use "git commit –amend" if you need to reword your commit.
-
-* Once you push to a remote branch that other people might use, you can no longer change history without mucking up the time stream.
 Before you push, take a second look at your commit. You're not going to be able to change it once its published. Use "git commit –amend" if you need to reword your commit.
 
 * Once you push to a remote branch that other people might use, you can no longer change history without mucking up the time stream.
